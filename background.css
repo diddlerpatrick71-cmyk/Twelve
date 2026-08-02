@@ -1,6 +1,6 @@
 /* Custom Discord Background */
 
-.appMount__51fd7 {
+body {
     background-image: url("https://raw.githubusercontent.com/diddlerpatrick71-cmyk/Twelve/refs/heads/main/6e6df8e5ce4353bacbd8dad9cf077345.jpg") !important;
     background-size: cover !important;
     background-position: center !important;
@@ -8,7 +8,6 @@
     background-attachment: fixed !important;
 }
 
-/* Make Discord transparent so the image shows */
 .bg__960e4 {
     background: transparent !important;
 }
@@ -16,5 +15,15 @@
 .theme-dark {
     --background-primary: transparent !important;
     --background-secondary: transparent !important;
+    --background-secondary-alt: transparent !important;
     --background-tertiary: transparent !important;
+    --background-floating: rgba(0,0,0,0.5) !important;
+}
+
+/* Make major panels transparent */
+.chat__52833,
+.sidebar__409e8,
+.panels__58331,
+.container__01ae2 {
+    background: transparent !important;
 }
