@@ -1,0 +1,20 @@
+/**
+ * @name My Background
+ * @author diddlerpatrick71-cmyk
+ * @version 1.0
+ */
+
+:root {
+  --background: url("https://raw.githubusercontent.com/diddlerpatrick71-cmyk/Twelve/main/6e6df8e5ce4353bacbd8dad9cf077345.jpg");
+
+  /* Adjust these however you like */
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+
+  --background-brightness: 0.45;
+  --background-blur: 0px;
+
+  --home-icon: none;
+}
