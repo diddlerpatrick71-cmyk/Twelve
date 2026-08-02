@@ -1,20 +1,20 @@
-/**
- * @name My Background
- * @author diddlerpatrick71-cmyk
- * @version 1.0
- */
+/* Custom Discord Background */
 
-:root {
-  --background: url("https://raw.githubusercontent.com/diddlerpatrick71-cmyk/Twelve/main/6e6df8e5ce4353bacbd8dad9cf077345.jpg");
+.appMount__51fd7 {
+    background-image: url("https://raw.githubusercontent.com/diddlerpatrick71-cmyk/Twelve/refs/heads/main/6e6df8e5ce4353bacbd8dad9cf077345.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
 
-  /* Adjust these however you like */
-  --background-position: center;
-  --background-size: cover;
-  --background-repeat: no-repeat;
-  --background-attachment: fixed;
+/* Make Discord transparent so the image shows */
+.bg__960e4 {
+    background: transparent !important;
+}
 
-  --background-brightness: 0.45;
-  --background-blur: 0px;
-
-  --home-icon: none;
+.theme-dark {
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
 }
